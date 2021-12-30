@@ -1,2 +1,2 @@
 # git-test
-firs-lesson
+my git test
