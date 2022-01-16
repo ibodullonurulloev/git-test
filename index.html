@@ -6,10 +6,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(165, 212, 241);
+        }
+
+        .container {
+
+
+            margin: 100px auto;
+        }
+
+        .piano {
+
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .white {
+            width: 80px;
+            height: 330px;
+            background-color: white;
+            border: 2px solid grey
+        }
+
+        .black {
+            width: 40px;
+            height: 200px;
+            background-color: rgb(0, 0, 0);
+            margin: 0 -20px;
+            z-index: 333;
+        }
+    </style>
+
 </head>
 
 <body>
-    <div>fist change</div>
+    <div class="container">
+        <div class="piano">
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+            <div class="black"></div>
+            <div class="white"></div>
+        </div>
+    </div>
 </body>
 
 </html>
